@@ -1,4 +1,4 @@
-package com.devsuperior.dscatalog.services;
+package br.com.home.dscatalog.services;
 
 import java.util.Optional;
 
@@ -6,9 +6,9 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
-import com.devsuperior.dscatalog.dto.ProductDTO;
-import com.devsuperior.dscatalog.entities.Product;
-import com.devsuperior.dscatalog.repositories.ProductRepository;
+import br.com.home.dscatalog.dto.ProductDTO;
+import br.com.home.dscatalog.entities.Product;
+import br.com.home.dscatalog.repositories.ProductRepository;
 
 @Service
 public class ProductService {

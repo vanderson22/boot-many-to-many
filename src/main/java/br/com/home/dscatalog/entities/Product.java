@@ -1,4 +1,4 @@
-package com.devsuperior.dscatalog.entities;
+package br.com.home.dscatalog.entities;
 
 import java.io.Serializable;
 import java.util.HashSet;

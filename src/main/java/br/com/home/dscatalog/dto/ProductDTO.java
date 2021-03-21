@@ -1,10 +1,10 @@
-package com.devsuperior.dscatalog.dto;
+package br.com.home.dscatalog.dto;
 
 import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.List;
 
-import com.devsuperior.dscatalog.entities.Product;
+import br.com.home.dscatalog.entities.Product;
 
 public class ProductDTO implements Serializable {
 	private static final long serialVersionUID = 1L;

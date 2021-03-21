@@ -1,4 +1,4 @@
-package com.devsuperior.dscatalog.resources;
+package br.com.home.dscatalog.resources;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
@@ -7,8 +7,8 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.devsuperior.dscatalog.dto.CategoryDTO;
-import com.devsuperior.dscatalog.services.CategoryService;
+import br.com.home.dscatalog.dto.CategoryDTO;
+import br.com.home.dscatalog.services.CategoryService;
 
 @RestController
 @RequestMapping(value = "/categories")
